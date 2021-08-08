@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+h2{
+    font-size: 30px;
+    
+}
+.top-section{
+    background-color: rgb(29, 16, 141);
+}
+.top-part{
+    display: flex;
+    margin: 30px;
+    
+    
+}
+.half-width{
+    width: 48%;
+    padding: 40px;
+    margin-right: 15px; 
+}
+.half-width h1{
+    color: white;
+    font-weight: 700;
+    font-size: 64px;
+}
+.half-width a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(209, 24, 70)
+}
+.half-width img{
+    width: 100%;
+}
+.player-section{
+    margin-top: 70px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    grid-gap: 30px 30px;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.single-player-info{
+    padding: 15px;
+    box-shadow: 10px 5px 20px;
+
+}
+.single-player-info img{
+    width: 100%;
+}
+.videos{
+    display: flex;
+    
+}
+.video-galary-title{
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 40px;
+    color: blueviolet;
+}
+.one-third-width{
+    width: 30%;
+    margin: 20px;
+    
+}
+.coach-words{
+    display: flex;
+    background-color: rgba(211, 211, 211, 0.973);
+    margin-top: 50px;
+}
+.coach-words h2{
+    color: mediumslateblue;
+}
+.coach-name{
+    color: lightseagreen;
+}
+footer{
+    margin-bottom: 100px;
+}
+.footer-logo{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 484px;
+    height: 110px;
+}
+.footer-social-icons{
+    margin-left: 580px;
+    margin-top: 100px;
+    width: 200px;
+    height: 30px;
+   
+}
+.footer-social-icons img{
+    margin-right: 15px;
+    width: 32px;
+    height: 32px;
+}
+footer p{
+    text-align: center;
+    margin-top: 20px;
+}
