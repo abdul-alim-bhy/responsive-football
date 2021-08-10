@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
     font-family: 'Poppins', sans-serif;
-    
 }
 h2{
-    font-size: 30px;
-    
+    font-size: 30px; 
 }
 .top-section{
     background-color: rgb(29, 16, 141);
 }
 .top-part{
     display: flex;
-    margin: 30px;
-    
-    
+    margin: 30px;  
 }
+/* .top-part img:hover{
+    transform: rotate(45deg);
+  transform-origin: 20% 40%;
+    
+} */
 .half-width{
     width: 48%;
     padding: 40px;
@@ -104,4 +105,39 @@ footer{
 footer p{
     text-align: center;
     margin-top: 20px;
+}
+/* Media queries */
+
+/* Mobile-phones */
+@media only screen and (max-width:688px) {
+    .videos, .top-part, .coach-words{
+        flex-direction: column;
+        width:100%;
+        justify-content: center;
+        
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+    }
+    footer, footer img, .footer-social-icons{
+        width:100%;
+        justify-content: center;
+        
+        
+    }
+}
+/* Tablet devices */
+@media only screen and (min-width:688px) and (max-width:992px){
+    .videos, .top-part, .coach-words{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        width: 100%;
+        justify-content: center;
+    }
 }
